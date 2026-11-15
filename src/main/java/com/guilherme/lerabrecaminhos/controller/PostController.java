@@ -5,7 +5,7 @@ import com.guilherme.lerabrecaminhos.controller.impl.UploadFileRepository;
 import com.guilherme.lerabrecaminhos.entities.Post;
 import com.guilherme.lerabrecaminhos.controller.impl.PostRepository;
 import com.guilherme.lerabrecaminhos.entities.UploadFile;
-import io.swagger.annotations.Api;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@Api(tags = "Post")
+@Tag(name = "Post")
 @CrossOrigin(origins = "http://localhost:3002")
 @AllArgsConstructor
 public class PostController {

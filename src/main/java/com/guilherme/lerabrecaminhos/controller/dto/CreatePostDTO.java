@@ -2,10 +2,10 @@ package com.guilherme.lerabrecaminhos.controller.dto;
 
 import lombok.Data;
 
-import javax.persistence.Lob;
-import javax.persistence.OneToOne;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
+import jakarta.persistence.Lob;
+import jakarta.persistence.OneToOne;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 @Data
 public class CreatePostDTO {
